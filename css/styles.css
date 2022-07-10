@@ -1,0 +1,310 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.nav-item {
+  padding: 0 30px;
+}
+
+.sec1 {
+  background-image: url("images/img1.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.sec1 p {
+  text-align: center;
+  font-size: 65px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+/* ...................................................... */
+.row {
+  margin: 0;
+}
+
+.sec2{
+  padding: 3vw 0 1vw;
+}
+
+.sec2head {
+  text-align: center;
+}
+
+.sec2sub {
+  height: 80%;
+}
+.sec2subPad{
+  padding: 24px;
+}
+.imgDiv {
+  position: relative;
+  padding: 0;
+  border: groove;
+}
+
+.imgDiv img {
+  width: 100%;
+  height: auto;
+}
+
+.imgtext {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-family: 'Roboto', sans-serif;
+}
+.imgtext2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+.imgContent{
+font-family: 'Roboto', sans-serif;
+border: groove;
+padding: 7px;
+}
+
+/* .................................................... */
+.sec3 {
+  padding: 50px 20px;
+  background-color: #6e5353;
+}
+
+.sec3 p {
+  margin-top: 2vw;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sec3img {
+  width: 100%;
+  height: 90%;
+}
+
+/* ................................................. */
+
+.sec4 .row {
+  text-align: center;
+}
+
+.sec4img {
+  margin: 20px;
+}
+
+.rotate:hover .imgRotate{
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+.sec4content {
+  margin: 40px 0;
+}
+
+.sec5 {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  height: 30%;
+}
+/* ...................................................... */
+
+.aboutSec1 {
+  background-image: url("images/img11.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutSec2{
+  background-image: url("images/img13.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+.aboutSec2 p{
+  font-size: 18px;
+}
+.aboutSec3 {
+  background-color: #F6F6F6;
+  font-family: 'Roboto', sans-serif;
+}
+.aboutSec3div1 {
+  text-align: center;
+  padding-top: 30px;
+}
+.aboutSec3 p{
+  font-size: 17px;
+  padding: 0 1vw;
+}
+
+.aboutSec3 .row div {
+  text-align: center;
+  padding: 20px;
+}
+
+.aboutSec3 .row div img {
+  margin: 20px 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: groove;
+}
+
+.aboutSec4 {
+  padding: 40px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.aboutSec4 .row div img {
+  width: 100%;
+  height: 100%;
+}
+
+.teamContent {
+  padding: 6vw 3vw;
+}
+
+.aboutSec5 {
+  text-align: center;
+  background-color: #F6F6F6;
+  padding: 3vw 2vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+.aboutSec5 img {
+  margin: 15px 0;
+}
+
+#carousel1 {
+  text-align: center;
+  padding: 3vw 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.carodiv1 {
+  padding: 1vw;
+}
+
+.prevIcon, .nextIcon {
+  color: #000;
+  font-size: 60px;
+}
+
+.review {
+  padding: 2vw;
+}
+
+.carodiv1 {
+  border: groove;
+}
+
+@media screen and (max-width: 650px) {
+  .caroHide {
+    display: none;
+  }
+}
+
+/* ............................................ */
+.designOne {
+  padding: 4vw 8vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+.designTwo {
+  text-align: center;
+  padding: 2vw 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.designSec {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  margin: 1vw 2vw;
+  border-radius: 5%;
+  border-style: groove;
+}
+
+.designSec img {
+  width: 100%;
+  height: 80%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.roomName {
+  height: 20%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  padding-top: 10px;
+}
+
+.designSec:hover {
+  transform: scale(1.1, 1.1);
+  transition-duration: 0.8s;
+}
+
+/* ............................................................ */
+
+
+.formOne{
+  background-image: url("images/img10.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centreForm{
+  height: 480px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.centreForm form button{
+  margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .centreForm {
+    width: 80%;
+  }
+}
+
+
